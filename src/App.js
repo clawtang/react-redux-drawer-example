@@ -9,7 +9,7 @@ const drawernav = DrawerNavigator({
     screen: tabNav,
     navigationOptions: {
       drawerLabel: 'Drawer Item 1',
-      drawerIcon: ({ tintColor }) => <Icon name="rocket" size={24} />
+      drawerIcon: ({ tintColor }) => <Icon name="rocket" size={24} color={tintColor} />
     },
   }
 });
